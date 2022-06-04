@@ -13,3 +13,7 @@ function logShout(string){
 function logWhisper(string){
     console.log(string.toLowerCase());
 }
+
+function sayHiToHeadphonedRoommate(string){
+    return string.toLowerCase() ? "I can't hear you!": "YES INDEED";
+}
